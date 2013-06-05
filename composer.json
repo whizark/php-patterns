@@ -1,0 +1,21 @@
+{
+    "name": "whizark/php-patterns",
+    "description": "A PHP pattern collection.",
+    "homepage": "https://github.com/whizark/php-patterns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Whizark",
+            "homepage": "https://github.com/whizark"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/whizark/php-patterns/issues",
+        "source": "https://github.com/whizark/php-patterns"
+    },
+    "autoload": {
+        "psr-0": {
+            "Whizark": "src/"
+        }
+    }
+}
