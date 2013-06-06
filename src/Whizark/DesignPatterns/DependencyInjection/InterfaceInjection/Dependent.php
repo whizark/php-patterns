@@ -15,7 +15,7 @@ class Dependent implements DependencyAwareInterface
     private $dependency = null;
 
     /**
-     * @param DependencyInterface $dependency
+     * {@inheritDoc}
      */
     public function setDependency(DependencyInterface $dependency)
     {

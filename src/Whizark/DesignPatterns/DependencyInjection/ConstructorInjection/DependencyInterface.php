@@ -8,6 +8,8 @@ namespace Whizark\DesignPatterns\DependencyInjection\ConstructorInjection;
 interface DependencyInterface
 {
     /**
+     * Do something.
+     *
      * @return void
      */
     public function doSomething();

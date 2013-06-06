@@ -10,7 +10,7 @@ use Whizark\DesignPatterns\DependencyInjection\TraitInjection\DependencyInterfac
 class Dependency implements DependencyInterface
 {
     /**
-     * Do something.
+     * {@inheritDoc}
      */
     public function doSomething()
     {

@@ -15,6 +15,8 @@ class Dependent
     private $dependency = null;
 
     /**
+     * Set a dependency.
+     *
      * @param DependencyInterface $dependency
      */
     public function setDependency(DependencyInterface $dependency)
