@@ -1,6 +1,6 @@
 {
     "name": "whizark/php-patterns",
-    "description": "A minimal and conceptual PHP pattern collection.",
+    "description": "A minimal and conceptual PHP 5.4+ pattern collection.",
     "homepage": "https://github.com/whizark/php-patterns",
     "license": "MIT",
     "authors": [
