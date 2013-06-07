@@ -7,7 +7,7 @@ use Whizark\DesignPatterns\GoF\Creational\Prototype\PrototypeInterface;
  * Class ConcretePrototype
  * @package Whizark\DesignPatterns\GoF\Creational\Prototype
  */
-class ConcretePrototype implements PrototypeInterface
+class Prototype implements PrototypeInterface
 {
     /**
      * {@inheritDoc}
