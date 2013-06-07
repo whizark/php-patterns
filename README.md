@@ -1,4 +1,14 @@
 PHP Patterns
 ============
 
-A minimal and conceptual PHP 5.4+ pattern collection that covers design patterns, anti-patterns, closure patterns, refactoring patterns.
+A PHP 5.4+ pattern collection that covers design patterns, anti-patterns, closure patterns, refactoring patterns.
+
+The Concepts
+------------
+
+* **Minimal and Conceptual** (useful as a pattern catalog)
+* **Practical and Modern** (following [PSR-2](http://www.php-fig.org/psr/2/) as possible etc.)
+* **PHP-specific** (with built-in features and SPL etc.)
+* **Interface-oriented** (but as simple as possible)
+
+(Since focusing on the core concept of each pattern, some patterns might not be the same as the originals.)
