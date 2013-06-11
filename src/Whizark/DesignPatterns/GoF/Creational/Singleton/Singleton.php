@@ -44,4 +44,14 @@ class Singleton
     {
         throw new \RuntimeException('Clone is not allowed for ' . get_class($this));
     }
+
+    /**
+     * Prevent unserialization.
+     *
+     * @throws \RuntimeException
+     */
+    final public function __wakeup()
+    {
+        throw new \RuntimeException('Unserialization is not allowed for ' . get_class($this));
+    }
 }
