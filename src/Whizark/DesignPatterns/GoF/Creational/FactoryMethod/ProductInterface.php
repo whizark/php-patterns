@@ -7,5 +7,10 @@ namespace Whizark\DesignPatterns\GoF\Creational\FactoryMethod;
  */
 interface ProductInterface
 {
-    // Declare method(s).
+    /**
+     * Do something.
+     *
+     * @return void
+     */
+    public function doSomething();
 }

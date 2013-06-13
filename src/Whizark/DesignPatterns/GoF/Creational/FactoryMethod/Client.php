@@ -7,3 +7,4 @@ require '../../../../../../vendor/autoload.php';
 
 $creator = new Creator();
 $product = $creator->factoryMethod();
+$product->doSomething();

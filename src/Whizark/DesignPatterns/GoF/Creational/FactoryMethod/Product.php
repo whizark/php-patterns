@@ -9,5 +9,11 @@ use Whizark\DesignPatterns\GoF\Creational\FactoryMethod\ProductInterface;
  */
 class Product implements ProductInterface
 {
-    // Implement method(s).
+    /**
+     * @{inheritDoc}
+     */
+    public function doSomething()
+    {
+        // Do something.
+    }
 }

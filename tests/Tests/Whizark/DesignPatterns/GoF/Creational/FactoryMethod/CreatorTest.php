@@ -4,18 +4,18 @@ namespace Tests\Whizark\DesignPatterns\GoF\Creational\FactoryMethod;
 use Whizark\DesignPatterns\GoF\Creational\FactoryMethod\Creator;
 
 /**
- * Class ClientTest
+ * Class CreatorTest
  * @package Tests\Whizark\DesignPatterns\GoF\Creational\FactoryMethod
  */
-class ClientTest extends \PHPUnit_Framework_TestCase
+class CreatorTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Test an use case.
+     * Test factoryMethod().
      */
-    public function testAnUseCase()
+    public function testFactoryMethod()
     {
         $creator = new Creator();
         $product = $creator->factoryMethod();
-        $product->doSomething();
+        $this->assertInstanceOf('Whizark\DesignPatterns\GoF\Creational\FactoryMethod\ProductInterface', $product);
     }
 }
