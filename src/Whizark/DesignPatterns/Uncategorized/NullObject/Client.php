@@ -1,6 +1,7 @@
 <?php
 namespace Whizark\DesignPatterns\Uncategorized\NullObject;
 
+use Whizark\DesignPatterns\Uncategorized\NullObject\Delegator;
 use Whizark\DesignPatterns\Uncategorized\NullObject\RealOperation;
 use Whizark\DesignPatterns\Uncategorized\NullObject\NullOperation;
 
