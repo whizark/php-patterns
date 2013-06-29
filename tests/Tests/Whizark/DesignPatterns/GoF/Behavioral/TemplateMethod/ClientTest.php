@@ -4,10 +4,10 @@ namespace Tests\Whizark\DesignPatterns\GoF\Behavioral\TemplateMethod;
 use Whizark\DesignPatterns\GoF\Behavioral\TemplateMethod\ConcreteClass;
 
 /**
- * Class ClientClassTest
+ * Class ClientTest
  * @package Tests\Whizark\DesignPatterns\GoF\Behavioral\TemplateMethod
  */
-class ClientClassTest extends \PHPUnit_Framework_TestCase
+class ClientTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Test an use case.
