@@ -6,4 +6,4 @@ php:
 
 before_script:
   - composer self-update
-  - composer --dev install
+  - composer install --prefer-source --dev
