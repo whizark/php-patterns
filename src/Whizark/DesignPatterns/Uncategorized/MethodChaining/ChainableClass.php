@@ -85,4 +85,3 @@ class ChainableClass
                (int) $this->propetyC;
     }
 }
-
