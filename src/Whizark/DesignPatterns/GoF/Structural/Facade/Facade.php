@@ -34,7 +34,6 @@ class Facade
         $this->classC = new ClassC();
     }
 
-
     /**
      * A simplified interface to do something with the underlying object(s).
      */
