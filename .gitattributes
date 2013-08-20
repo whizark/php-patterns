@@ -2,4 +2,5 @@
 .gitignore export-ignore
 .editorconfig export-ignore
 .travis.yml export-ignore
+.coveralls.yml export-ignore
 phpunit.xml.dist export-ignore
