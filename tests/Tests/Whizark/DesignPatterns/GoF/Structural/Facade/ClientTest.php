@@ -7,7 +7,7 @@ use Whizark\DesignPatterns\GoF\Structural\Facade\Facade;
  * Class ClientTest
  * @package Tests\Whizark\DesignPatterns\GoF\Structural\Facade
  */
-class ClientTest
+class ClientTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Test an use case.

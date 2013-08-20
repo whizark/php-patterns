@@ -7,7 +7,7 @@ use Whizark\DesignPatterns\GoF\Structural\Facade\ClassC;
  * Class ClassCTest
  * @package Tests\Whizark\DesignPatterns\GoF\Structural\Facade
  */
-class ClassCTest
+class ClassCTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Test doSomething().
