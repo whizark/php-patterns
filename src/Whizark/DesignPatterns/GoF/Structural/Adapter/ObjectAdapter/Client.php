@@ -5,5 +5,5 @@ use Whizark\DesignPatterns\GoF\Structural\Adapter\ObjectAdapter\Adapter;
 
 require '../../../../../../../vendor/autoload.php';
 
-$adapter = new Adapter();
+$adapter = new Adapter(new AdapteeA(), new AdapteeB());
 $adapter->targetMethod();
