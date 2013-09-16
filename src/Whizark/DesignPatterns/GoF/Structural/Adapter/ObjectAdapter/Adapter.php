@@ -23,11 +23,14 @@ class Adapter implements TargetInterface
 
     /**
      * The constructor.
+     * 
+     * To achieve Dependency Inversion Principle, we need to inject adaptee(s)
+     * in the constructor of adapter. This is a key feature.
      */
-    public function __construct()
+    public function __construct(AdapteeA $a, AdapteeB $b)
     {
-        $this->adapteeA = new AdapteeA();
-        $this->adapteeB = new AdapteeB();
+        $this->adapteeA = $a;
+        $this->adapteeB = $b;
     }
 
     /**
